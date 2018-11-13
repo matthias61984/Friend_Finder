@@ -43,6 +43,8 @@ var friendsArray = [
 
 module.exports = friendsArray;
 
+
+// Testing the logic (it works!) - I still need to get this linked in the correct file
 var testInput = [3,3,3,3,3,3,3,3,3,3];
 
 var findBestFriend = function() {
