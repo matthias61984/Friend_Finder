@@ -21,19 +21,19 @@ var friendsArray = [
     },
     { "name":"Stewie Griffin",
         "photo":"https://vignette.wikia.nocookie.net/familyguyfanon/images/0/02/Stewie_Griffin.png/revision/latest?cb=20161119043926",
-        "scores":[]
+        "scores":[5,5,2,1,5,4,4,4,2,1]
     },
     { "name":"Zorak",
         "photo":"https://vignette.wikia.nocookie.net/villains/images/f/f2/Zorak.png/revision/latest?cb=20160905053131",
-        "scores":[]
+        "scores":[5,1,1,5,1,4,2,1,3,3]
     },
     { "name":"Krieger",
         "photo":"https://vignette.wikia.nocookie.net/archer/images/b/bb/Algernop_Krieger.png/revision/latest?cb=20151013042053",
-        "scores":[]
+        "scores":[5,3,1,1,3,1,5,1,3,3]
     },
     { "name":"Stimpy",
         "photo":"https://vignette.wikia.nocookie.net/p__/images/d/d9/Stimpy_by_kwilkinson-d64y3pg.png/revision/latest?cb=20180524211127&path-prefix=protagonist",
-        "scores":[]
+        "scores":[5,1,1,1,1,1,1,1,5,5]
     },
     { "name":"Pet Rock",
         "photo":"http://q985online.com/files/2015/04/Pet-Rock-12.jpg?w=980&q=75",
@@ -42,26 +42,3 @@ var friendsArray = [
 ];
 
 module.exports = friendsArray;
-
-
-// Testing the logic (it works!) - I still need to get this linked in the correct file
-var testInput = [3,3,3,3,3,3,3,3,3,3];
-
-var findBestFriend = function() {
-    var bestFriend;
-    var lowestDiff = 50;
-    for (i=0; i < friendsArray.length; i++) {
-        var diff = 0;
-        for (j=0; j < friendsArray[i].scores.length; j++) {
-            diff += Math.abs((friendsArray[i].scores[j])-(testInput[i]));
-        }
-        if (diff < lowestDiff) {
-            bestFriend = friendsArray[i];
-            lowestDiff = diff;
-        }
-        console.log(diff); 
-    }
-    console.log("Your best friend is: " + bestFriend.name);
-}
-
-findBestFriend();
