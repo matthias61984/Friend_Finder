@@ -1,17 +1,18 @@
-# Project Title
+# Friend Finder
 
-One Paragraph of project description goes here
+This browser-based application will match your 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To install, pull files from Github into your desired directory.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Run npm init in the terminal, then install these node modules:
 
 ```
-Give examples
+express
+path
 ```
 
 ### Installing
