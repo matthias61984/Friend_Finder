@@ -1,19 +1,6 @@
 # Friend Finder
 
-This browser-based application will match you with the most like-minded person in the application. When a user submits their answers, they are added to the friends.js array and become a possible outcome for future submissions. The logic uses Math.abs(), looping through all the friends in the array to return the friend with the lowest difference in scores in a modal.
-
-## Getting Started
-
-To install, pull files from Github into your desired directory.
-
-### Prerequisites
-
-Run npm init in the terminal, then install these node modules:
-
-```
-express
-path
-```
+This browser-based application will match you with the most like-minded person in the application. When a user submits their answers, they are added to the friends.js array and become a possible outcome for future submissions. The logic uses Math.abs(), looping through all the friends in the array to return the friend with the lowest difference in scores, then presents your match in a modal.
 
 ## Deployment
 
@@ -29,5 +16,5 @@ HTML, CSS, Javascript, Node, Express
 
 ## Acknowledgments
 
-* Jeff and Edgar for getting me past pathway mess
+* Jeff and Edgar
 * The Rubber Ducky
