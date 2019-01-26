@@ -6,6 +6,10 @@ This browser-based application will match you with the most like-minded person i
 
 Deployed on heroku at https://friend-finder-clw.herokuapp.com/
 
+## To Use
+
+
+
 ## Built With
 
 HTML, CSS, Javascript, Node, Express
